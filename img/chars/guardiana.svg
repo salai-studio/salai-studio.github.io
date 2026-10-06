@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 300 480">
+<defs>
+<path id="g-tailr" d="M150 192C154 236 158 286 160 346C176 362 200 370 226 364C242 360 256 350 270 332C250 320 232 292 214 256C202 232 184 208 168 186Z"/>
+<path id="g-body" d="M122 110C112 112 103 117 99 126C100 140 104 152 109 164C113 172 117 180 120 186C112 206 104 228 100 256C96 284 93 308 90 332C104 342 122 346 140 342L146 340C148 292 150 244 150 196L168 186C175 172 182 150 184 132C180 122 170 114 158 110Z"/>
+<path id="g-hair" d="M127 102C131 96 134 88 133 78C132 68 127 61 119 58C114 56 109 56 104 59C106 48 113 34 124 24C130 17 138 13 148 13C170 13 188 30 188 54C188 70 182 86 188 98C196 110 214 114 232 114C252 114 270 108 288 96C280 116 262 130 242 134C256 138 272 138 286 132C274 144 260 148 246 148C262 154 280 164 296 180C276 180 256 182 238 186C250 196 262 208 270 224C254 216 238 214 222 216C232 226 238 240 238 256C226 246 212 238 198 226C178 206 148 160 136 124C133 114 131 108 127 102Z"/>
+<path id="g-hairu" d="M146 150C156 190 174 232 206 276C204 258 204 244 208 232L176 176Z"/>
+<clipPath id="g-tailr-c"><use xlink:href="#g-tailr"/></clipPath>
+<clipPath id="g-body-c"><use xlink:href="#g-body"/></clipPath>
+<clipPath id="g-hair-c"><use xlink:href="#g-hair"/></clipPath>
+<linearGradient id="g-blade" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f6fafd"/><stop offset="1" stop-color="#d3dde9"/></linearGradient>
+<g id="g-art">
+
+<!-- espada -->
+<g transform="rotate(2 64 350)">
+<path d="M57 262L57.500 448L64 478L70.500 448L71 262Z" fill="url(#g-blade)"/>
+<path d="M64 264L64 474L69.500 448L70 264Z" fill="#a9b6c9" stroke="none"/>
+<path d="M59.500 230L59.500 258L68.500 258L68.500 230Z" fill="#3b2a33"/>
+<path d="M59.500 242L68.500 239M59.500 250L68.500 247" fill="none" stroke="#8a5a44" stroke-width="2"/>
+<path d="M38 252C43 257 54 256 64 256C74 256 85 257 90 252C94 255 94 261 90 263C83 266 73 264 64 264C55 264 45 266 38 263C34 261 34 255 38 252Z" fill="#f5b944"/>
+<path d="M40 261C46 263 55 262 64 262C73 262 82 263 88 261" fill="none" stroke="#d9952a" stroke-width="2"/>
+<circle cx="64" cy="260" r="2.800" fill="#d7263d" stroke-width="1.600"/>
+</g>
+
+<!-- interior de la abertura y botas -->
+<path d="M150 196L140 342L164 348Z" fill="#5a1a2e" stroke="none"/>
+<g transform="translate(4 -3)">
+<path d="M148 340C146 358 145 380 149 404C152 420 155 434 155 446C151 454 145 462 142 469C140 475 143 478 149 478L175 478C179 478 180 471 179 462C178 452 177 446 177 440C180 420 186 398 188 376C189 362 188 350 186 340Z" fill="#523229"/>
+<path d="M151 356C150 378 152 400 157 422" fill="none" stroke="#7a4d3c" stroke-width="4"/>
+<path d="M148 470L179 470" fill="none" stroke-width="2"/>
+<path d="M155 444C162 448 170 448 177 444L178 452C170 456 162 456 154 452Z" fill="#b57c4f" stroke-width="2"/>
+<path d="M146 346C158 352 174 352 188 346L188 360C174 366 158 366 146 360Z" fill="#b57c4f"/>
+</g>
+<path d="M100 336C95 356 94 380 97 404C99 420 102 434 101 448C96 454 86 460 80 467C77 473 80 478 87 478L117 478C121 478 122 471 121 462C121 452 122 446 122 440C126 420 133 398 136 376C138 362 138 348 137 336Z" fill="#5b3a33"/>
+<path d="M102 356C100 378 101 400 104 420" fill="none" stroke="#8a5a44" stroke-width="4"/>
+<path d="M88 470L120 470" fill="none" stroke-width="2"/>
+<path d="M101 446C108 450 115 450 122 446L122 454C115 458 108 458 100 454Z" fill="#c58b5a" stroke-width="2"/>
+<path d="M97 346C110 352 126 352 138 346L137 360C126 366 110 366 96 360Z" fill="#c58b5a"/>
+
+<!-- faldon derecho (lejano, al viento) -->
+<use xlink:href="#g-tailr" fill="#30324c"/>
+<g clip-path="url(#g-tailr-c)" stroke="none">
+<path d="M172 198C186 234 206 292 232 356L196 362C184 312 172 256 162 204Z" fill="#40446a"/>
+<path d="M160 335C177 351 200 359 224 353C238 349 250 340 262 324L272 332C256 352 242 362 226 366C200 372 176 364 158 348Z" fill="#f1e7d3"/>
+<path d="M155.500 204C158 246 162 292 164.500 340" fill="none" stroke="#f1e7d3" stroke-width="3"/>
+</g>
+<path d="M160 335C177 351 200 359 224 353C238 349 250 341 261 328" fill="none" stroke-width="2"/>
+<path d="M176 202C188 238 206 288 228 342M164 214C168 250 176 300 190 348" fill="none" stroke-width="2"/>
+<use xlink:href="#g-tailr" fill="none"/>
+
+<!-- torso y faldon izquierdo -->
+<use xlink:href="#g-body" fill="#3a3d5e"/>
+<g clip-path="url(#g-body-c)" stroke="none">
+<path d="M150 104L190 104L190 196L150 198C146 244 146 292 142 346L128 346C132 292 134 244 136 198C140 166 146 134 150 104Z" fill="#2a2c44"/>
+<path d="M101 128C102 140 106 152 111 164C115 172 119 180 122 186C114 206 106 228 102 256C98 284 95 308 92 332L99 336C101 310 104 284 108 258C112 230 120 206 128 188C122 176 114 158 108 126Z" fill="#525789"/>
+<path d="M88 321C104 332 122 336 140 332L148 330L148 344L140 344C122 348 104 344 88 334Z" fill="#f1e7d3"/>
+<path d="M145.500 204C145.500 250 144 292 142 334" fill="none" stroke="#f1e7d3" stroke-width="3"/>
+</g>
+<path d="M91 322C105 332 122 336 140 332L147 330" fill="none" stroke-width="2"/>
+<path d="M124 208C118 244 113 288 110 326" fill="none" stroke-width="2"/>
+<use xlink:href="#g-body" fill="none"/>
+
+<!-- faja -->
+<path d="M120 200C122 216 128 232 140 244L132 246L134 256C122 244 114 224 114 202Z" fill="#d9952a" stroke-width="2.400"/>
+<path d="M124 198C136 206 148 218 162 224L154 230L158 238C142 232 130 218 120 202Z" fill="#f5b944" stroke-width="2.400"/>
+<path d="M119 184C134 192 154 192 169 184L169 197C154 205 133 205 117 197Z" fill="#f5b944"/>
+<path d="M117 190C121 186 129 188 131 194C131 200 123 202 118 199Z" fill="#f5b944" stroke-width="2.400"/>
+
+<!-- brazo izquierdo (cercano) -->
+<path d="M112 118C102 118 94 124 91 136C86 152 80 168 75 184C71 196 66 206 62 214L78 224C84 216 90 206 96 194C102 178 108 162 110 146C112 136 114 126 112 118Z" fill="#3a3d5e"/>
+<path d="M93 134C88 150 82 168 77 184C73 196 68 206 65 212L69 214C74 206 79 196 83 184C88 168 94 150 98 134Z" fill="#525789" stroke="none"/>
+<path d="M68 204L84 216L77 226L60 215Z" fill="#f1e7d3"/>
+<path d="M92.500 133C95 125 102 120 111 118.500L112.500 125C106 126 101 130 98 136Z" fill="#f1e7d3" stroke-width="2.200"/>
+<path d="M61 214C55 218 53 228 58 234C63 239 73 238 78 232C81 228 80 224 78 222Z" fill="#5b3a33"/>
+<path d="M62 226C66 229 71 229 75 227" fill="none" stroke-width="1.600"/>
+
+<!-- rostro (perfil perdido), oreja, cuello; la cabeza y el cabello van al 93 % respecto de la nuca -->
+<g transform="matrix(.93 0 0 .93 9.52 8.4)">
+<path d="M116 50C111 56 108 62 108 66C105 71 103 78 105 86C107 92 111 96 116 99L123 103L126 116L152 116L150 52Z" fill="#f6d2bd"/>
+<path d="M116 99L123 103L126 116L150 116L150 98C138 104 126 104 116 99Z" fill="#e2a892" stroke="none"/>
+<path d="M108.500 68C105.500 68 102.500 67 100.500 65" fill="none" stroke-width="2.200"/>
+<path d="M120 68C123 62 130 64 131 72C132 79 129 87 123 90C120 89 119 85 120 82" fill="#f6d2bd" stroke-width="2.200"/>
+<path d="M123.500 70C126 72 127 77 125.500 82" fill="none" stroke="#e2a892" stroke-width="1.600"/>
+</g>
+<path d="M115 102C118 108 125 113 134 114L160 114L160 126L123 124C117 120 113 110 115 102Z" fill="#f1e7d3"/>
+
+<!-- cabello: mechones inferiores -->
+<g transform="matrix(.93 0 0 .93 9.52 8.4)">
+<path d="M146 150C146 178 152 206 164 232C166 218 172 206 180 198L160 170Z" fill="#8f1229"/>
+<use xlink:href="#g-hairu" fill="#a8182f"/>
+
+<!-- cabello: masa principal -->
+<path d="M178 72C198 90 226 98 252 92C230 102 206 103 184 92Z" fill="#c01f37" stroke-width="2.200"/>
+<use xlink:href="#g-hair" fill="#d7263d"/>
+<g clip-path="url(#g-hair-c)" stroke="none">
+<path d="M188 40C192 60 186 80 188 98C180 108 166 112 152 108C166 100 176 84 180 62Z" fill="#a8182f"/>
+<path d="M122 96C130 104 142 108 152 108C164 112 178 108 188 98C194 106 202 110 212 113C198 120 176 124 156 120C148 122 142 124 136 124C132 112 126 104 122 96Z" fill="#a8182f"/>
+<path d="M242 134C262 130 280 116 288 96L292 108C284 126 268 140 250 144C234 146 216 138 202 126C216 132 230 136 242 134Z" fill="#a8182f"/>
+<path d="M246 148C260 148 274 144 286 132L288 140C278 150 264 156 252 156C240 156 226 150 214 142C226 148 236 148 246 148Z" fill="#a8182f"/>
+<path d="M238 186C258 186 278 182 296 180L292 190C276 194 258 196 244 196C228 196 208 184 194 168C208 180 222 186 238 186Z" fill="#a8182f"/>
+<path d="M222 216C238 214 254 216 270 224L266 232C252 226 238 224 228 226C214 226 198 214 186 198C198 210 210 216 222 216Z" fill="#a8182f"/>
+<path d="M136 124C148 160 178 206 198 226C212 238 226 246 238 256L232 262C218 254 204 246 190 234C170 212 142 164 130 126Z" fill="#a8182f"/>
+<path d="M118 60C118 44 128 30 144 24C134 32 128 44 127 58C126 66 119 68 118 60Z" fill="#f4606c"/>
+<path d="M152 26C163 27 172 35 176 48C170 41 162 36 152 34Z" fill="#f4606c"/>
+<path d="M200 108C214 113 236 112 256 104C240 114 220 118 206 115Z" fill="#f4606c"/>
+<path d="M256 156C268 160 280 168 290 178C278 174 266 170 254 164Z" fill="#f4606c"/>
+<path d="M234 192C246 198 256 208 264 220C254 212 244 206 232 202Z" fill="#f4606c"/>
+</g>
+<path d="M156 30C168 46 172 72 176 90C180 106 198 118 226 122" fill="none" stroke="#7a0f24" stroke-width="2"/>
+<path d="M146 34C142 60 150 92 172 118C184 132 198 142 214 148" fill="none" stroke="#7a0f24" stroke-width="2"/>
+<path d="M119 58C121 50 124 44 128 38" fill="none" stroke="#7a0f24" stroke-width="2"/>
+<path d="M242 134C232 136 222 134 212 130" fill="none" stroke="#7a0f24" stroke-width="2"/>
+<path d="M246 148C236 149 228 148 220 146" fill="none" stroke="#7a0f24" stroke-width="2"/>
+<path d="M238 186C220 184 200 170 186 150" fill="none" stroke="#7a0f24" stroke-width="2"/>
+<path d="M222 216C208 214 192 200 180 180" fill="none" stroke="#7a0f24" stroke-width="2"/>
+<use xlink:href="#g-hair" fill="none"/>
+
+<!-- mechones sueltos -->
+<path d="M153 15C163 8 174 7 182 10C173 10.500 166 13.500 161 18Z" fill="#d7263d" stroke-width="2.200"/>
+</g>
+</g>
+</defs>
+<g stroke="#2b1d2e" stroke-linejoin="round" stroke-linecap="round" transform="translate(0 -1.500)">
+<use xlink:href="#g-art" stroke-width="6.800"/>
+<use xlink:href="#g-art" stroke-width="2.800"/>
+</g>
+</svg>
